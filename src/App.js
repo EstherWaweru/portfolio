@@ -7,11 +7,14 @@ import Portfolio from './components/portfolio/Portfolio.jsx';
 import Projects from './components/projects/Projects.jsx';
 import Skills from './components/skills/Skills.jsx';
 import Testmonials from './components/testimonials/Testimonials';
+import { useState } from 'react';
 
 function App() {
+  // creating state variable
+  const[menuOpen,setMenuOpen] = useState(false); 
   return (
     <div className="App">
-     <Topbar/>
+     <Topbar menuOpen = {menuOpen} setMenuOpen = {setMenuOpen}/>
      <div className = "sections">
        <About/>
        <Contact/>
