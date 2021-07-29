@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  height: 100vh;
+}
+.sections {
+  height:calc(100vh - 70px);
+  width:100%;
+  position: relative;
+  top:70px;
+  background-color: magenta;
+  
+}
+.sections > *{
+  background-color: mediumblue;
+  width: 100%;
+  height:calc(100vh - 70px);
 }
 
 .App-logo {

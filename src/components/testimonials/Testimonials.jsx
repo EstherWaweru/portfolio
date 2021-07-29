@@ -1,4 +1,4 @@
-import './Testimonials.css';
+import './Testimonials.scss';
 
 function Testimonials(){
     return(

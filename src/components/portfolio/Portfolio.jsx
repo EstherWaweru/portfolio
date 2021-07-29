@@ -1,8 +1,8 @@
-import './Portfolio.css';
+import './Portfolio.scss';
 
 function Portfolio(){
     return(
-        <div className = "intro">
+        <div className = "portfolio">
 
         </div>
     )
